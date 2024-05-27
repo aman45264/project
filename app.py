@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the pretrained model
 model_path = R"model1.pkl"
-model = pickle.load(open(model_path, 'rb'))
+model = pickle.load(open(r"model_path", 'rb'))
 
 # Define the function to make predictions
 def predict_heart_disease(cp, thalach, slope, restecg, chol, trestbps, fbs, oldpeak):
