@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the pretrained model
-model_path = R"C:\Users\HP\Downloads\heart_disease_prediction2\model1.pkl"
+model_path = R"model1.pkl"
 model = pickle.load(open(model_path, 'rb'))
 
 # Define the function to make predictions
